@@ -1,0 +1,83 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1115524248" file="C:\Users\2AM\Google Drive\[[-UOU-]]\SEM III\[01] Advanced Topics in Ergonomics and Human Factors\W 14\APPSource\appOWAS.prj" location="C:\Users\2AM\Google Drive\[[-UOU-]]\SEM III\[01] Advanced Topics in Ergonomics and Human Factors\W 14\APPSource" name="appOWAS" target="target.mlapps" target-name="Package App">
+    <param.appname>appOWAS</param.appname>
+    <param.authnamewatermark>Kimchann Chon</param.authnamewatermark>
+    <param.email>kimchannchon101@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Semi-automatic OWAS</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\2AM\AppData\Local\Temp\tpb107dfb0_7683_4f5a_9b81_30c33482ac11.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\newAppDir</param.output>
+    <param.guid>1914d6ac-f139-4563-bccb-b4ce337658bc</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\appOWAS.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\cropImg.png</file>
+      <file>${PROJECT_ROOT}\ico.png</file>
+      <file>${PROJECT_ROOT}\originImg.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="newAppDir" optional="false">C:\Users\2AM\Google Drive\[[-UOU-]]\SEM III\[01] Advanced Topics in Ergonomics and Human Factors\W 14\APPSource\newAppDir</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
